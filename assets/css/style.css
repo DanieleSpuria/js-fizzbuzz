@@ -33,7 +33,7 @@ body{
 }
 
 .buzz{
-  background-color: white;
+  background-color: deepskyblue;
   animation-name: buzz;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -54,7 +54,7 @@ body{
 
 @keyframes fizz{
   50% {
-    background-color: white;
+    background-color: deepskyblue;
   } 
 }
 
