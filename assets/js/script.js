@@ -5,6 +5,7 @@ for (let i = 1; i <= 100; i++) {
   
   const box = document.createElement("div");
   container.append(box);
+  box.classList.add("box");
 
   if((!(i % 3)) && (!(i % 5))){
     box.append('FizzBuzz');
@@ -20,10 +21,8 @@ for (let i = 1; i <= 100; i++) {
   }
   else{
     box.append(i);
+    console.log(i);
   }
-
-  console.log(i);
-  
 }
 
 
