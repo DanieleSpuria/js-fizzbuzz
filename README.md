@@ -22,6 +22,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 
 ## Sviluppo
 - creare un for e leggerlo in console
--
+- creare le condizioni per i multipli di 3, di 5 e di entrambi contemporaneamente e leggerlo in console
+
 
 
