@@ -1,8 +1,14 @@
-const container = document.querySelector('.container');
-console.log(container);
+const body = document.querySelector("body");
+
+// Container
+const container = document.createElement("div");
+container.classList.add("container");
+body.append(container);
+console.log(body, container);
 
 for (let i = 1; i <= 100; i++) {
   
+  // Card e Box
   const card = document.createElement("div");
   const box = document.createElement("div");
 
@@ -12,6 +18,7 @@ for (let i = 1; i <= 100; i++) {
   card.classList.add("card");
   box.classList.add("box");
 
+  // Condizioni per i vari multipli
   if((!(i % 3)) && (!(i % 5))){
     box.append('FizzBuzz');
     box.classList.add("fizzbuzz");
