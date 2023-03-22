@@ -24,6 +24,8 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 - creare un for e leggerlo in console
 - creare le condizioni per i multipli di 3, di 5 e di entrambi contemporaneamente e leggerlo in console
 - creare container nel DOM e inserirlo in una variabile
+- creare box 
+- inserire i numeri e le stringhe nei box 
 
 
 
