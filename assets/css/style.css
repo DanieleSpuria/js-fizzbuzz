@@ -26,3 +26,42 @@ body{
   background-color: deepskyblue;
   border: 1px solid rgb(0, 132, 255);
 }
+
+.buzz{
+  background-color: white;
+  animation-name: buzz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buzz{
+  50% {
+    background-color: lightsalmon;
+  } 
+}
+
+.fizz{
+  background-color: lightgreen;
+  animation-name: fizz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fizz{
+  50% {
+    background-color: white;
+  } 
+}
+
+.fizzbuzz{
+  background-color: lightgreen;
+  animation-name: fizzbuzz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fizzbuzz{
+  50% {
+    background-color: lightsalmon;
+  } 
+}

@@ -27,6 +27,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 - creare box 
 - inserire i numeri e le stringhe nei box 
 - creare classe box
+- creare classi buzz, fizz, e buzzfizz e assegnarle ai box (è molto brutto, ho voluto ripassare un pò le animazioni)
 
 
 

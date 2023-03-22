@@ -9,14 +9,17 @@ for (let i = 1; i <= 100; i++) {
 
   if((!(i % 3)) && (!(i % 5))){
     box.append('FizzBuzz');
+    box.classList.add("fizzbuzz");
     console.log('FizzBuzz');
   }
   else if(!(i % 5)){
     box.append('Buzz');
+    box.classList.add("buzz");
     console.log('Buzz');
   }
   else if(!(i % 3)){
     box.append('Fizz');
+    box.classList.add("fizz");
     console.log('Fizz');
   }
   else{
