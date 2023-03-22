@@ -15,16 +15,21 @@ body{
   height: 80vh;
   margin: 10vh auto;
 }
+ 
+.card{
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+}
 
 .box{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
-  height: 10%;
-  padding: 20px;
+  padding: 10px;
   background-color: deepskyblue;
   border: 1px solid rgb(0, 132, 255);
+  border-radius: 10px;
 }
 
 .buzz{

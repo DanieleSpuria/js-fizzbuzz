@@ -3,8 +3,13 @@ console.log(container);
 
 for (let i = 1; i <= 100; i++) {
   
+  const card = document.createElement("div");
   const box = document.createElement("div");
-  container.append(box);
+
+  container.append(card);
+  card.append(box);
+
+  card.classList.add("card");
   box.classList.add("box");
 
   if((!(i % 3)) && (!(i % 5))){
