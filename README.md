@@ -21,6 +21,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda 
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
 ## Sviluppo
-- creare un for
+- creare un for e leggerlo in console
+-
 
 
