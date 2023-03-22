@@ -26,6 +26,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 - creare container nel DOM e inserirlo in una variabile
 - creare box 
 - inserire i numeri e le stringhe nei box 
+- creare classe box
 
 
 
